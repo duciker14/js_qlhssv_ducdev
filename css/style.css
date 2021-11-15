@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient( #f2f4f5, #b0e1f0);
+}
+/* Header */
+.header{
+    display: flex;
+    background-color: rgb(241, 180, 136);
+}
+.logo{
+   flex: 1;
+}
+.titlte{
+    flex: 7;
+    font-size: 2rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Main */
+.main{
+    display: flex;
+}
+/* Left */
+.left{
+    width: 250px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+form.left h3{
+    margin-top: 0px;
+}
+form.left label{
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+form.left input{
+    margin-left: 20px;
+}
+.btn-submit{
+    margin-left: 60px;
+}
+/* Right */
+.right{
+    margin: 20px 20px 20px 5px;
+    border: 1px solid #ccc;
+}
+div .right h3{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */

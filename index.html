@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý lớp học</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="./img/logo.png" width="100px" heght="100px" alt="">
+            </div>
+            <div class="titlte">CHÀO MỪNG BẠN ĐẾN VỚI TRANG QUẢN TRỊ SINH VIÊN</div>
+        </div>
+        <div class="main">
+            <form class="left">
+                <h3>Nhập thông tin sinh viên</h3>
+                <label for="">Họ và tên</label>
+                <input type="text" id="nameStudent">
+                </br></br>
+                <label for="">Mã Sinh viên</label>
+                <input type="text" id="idStudent">
+                </br></br>
+                <label for="">Lớp</label>
+                <input type="text" id="classStudent">
+                </br></br>
+                <label for="">Khoá</label>
+                <input type="text" id="departmentStudent">
+                </br></br>
+                <label for="">Điểm toán</label>
+                <input type="text" id="mathStudent">
+                </br></br>
+                <label for="">Điểm lý</label>
+                <input type="text" id="physicStudent">
+                </br></br>
+                <label for="">Điểm hoá</label>
+                <input type="text" id="chemistryStudent">
+                </br></br>
+                <button type="submit" id='btnAdd' class="btn-submit">Lưu lại</button>
+            </form>
+            <div class="right">
+                <h3>Danh sách sinh viên</h3>
+                <table class="table" width="900" border="1" cellpadding="0" cellpading="0">
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ và tên</th>
+                        <th>Mã sinh viên</th>
+                        <th>Lớp</th>
+                        <th>Khoá</th>
+                        <th>Điểm toán</th>
+                        <th>Điểm lý</th>
+                        <th>Điểm hoá</th>
+                        <th>Hành động</th>
+                    </tr>
+                    <div id="display"></div>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
